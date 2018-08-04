@@ -10,7 +10,11 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  </head>
 <body>
 
 
@@ -140,8 +144,6 @@
 
         <div class="col l3 s12">
             <div class="left-align"> <a href="https://internetdefenseleague.org"><img src="https://internetdefenseleague.org/images/badges/final/shield_badge.png" style='height: auto; width: 100%; object-fit: contain'/></a></div>
-
-
         </div>
 
       </div>
@@ -158,14 +160,19 @@
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+    <script src="node_modules/react"></script>
+    <script src="node_modules/react-dom"></script>
+    <script src="node_modules/react-materialize"></script>
+    <script src="node_modules/react-scripts"></script>
+    <script src="node_modules/react-dev-utils"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
     <script type="text/javascript">
         window._idl = {};
         _idl.variant = "modal";
         (function() {
-            var idl = document.createElement('script');
+            const idl = document.createElement('script');
             idl.async = true;
             idl.src = 'https://members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'modal');
             document.getElementsByTagName('body')[0].appendChild(idl);
@@ -173,3 +180,4 @@
     </script>
   </body>
 </html>
+
