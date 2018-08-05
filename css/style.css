@@ -55,3 +55,12 @@ p {
 footer.page-footer {
   margin: 0;
 }
+.big-link .image-alt{
+  display:none;
+}
+.big-link:hover .image-alt{
+  display:inline;
+}
+.big-link:hover .image-main{
+  display:none;
+}
