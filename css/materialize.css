@@ -9056,16 +9056,19 @@ input[type=range]::-ms-thumb {
   .timepicker-modal {
     max-width: 600px;
   }
+
   .timepicker-container.modal-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
+
   .timepicker-text-container {
     top: 32%;
   }
+
   .timepicker-display-am-pm {
     position: relative;
     right: auto;
@@ -9073,7 +9076,19 @@ input[type=range]::-ms-thumb {
     text-align: center;
     margin-top: 1.2rem;
   }
- }
+
+  .big-link .image-alt {
+    display: none;
+  }
+
+  .big-link:hover .image-alt {
+    display: inline;
+  }
+
+  .big-link:hover .image-main {
+    display: none;
+  }
+}
 
 
 
